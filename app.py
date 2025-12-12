@@ -217,7 +217,7 @@ def laad_of_init_state():
     
 def upload_bounce_data(API_TOKEN, df):
     OWNER = "DatalabHvA"
-    REPO = "stuiterbal"
+    REPO = "stuiterbal2"
     FILE_PATH = "bounce_data.csv"
     
     csv_text = df.to_csv(index=False)
@@ -357,4 +357,5 @@ else:
             st.rerun()
 
 st.caption("📁 bounce_data.csv, bounce_model_lm.pkl, bounce_model_rf.pkl, bounce_model_dt.pkl")
+
 #exit()
